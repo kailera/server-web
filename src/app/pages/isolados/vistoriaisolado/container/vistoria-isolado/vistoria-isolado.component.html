@@ -1,0 +1,53 @@
+<div class="container">
+    <h3>Vistoria</h3>
+    <h4>Preencha atentamente os dados abaixo:</h4>
+    <p>Data: {{today}} </p>
+    <p>Nome: {{isolado?.nomeisolado}}</p>
+    <p>Endereço: {{isolado?.enderecoisolado}}, {{isolado?.numeroenderecoisolado}}</p>
+
+
+    <form
+        [formGroup] ="vistoriaIsolado" 
+        (ngSubmit) = "cadastrarVistoria()"
+        (ngReset) = "resetar()"
+        >    
+
+        
+
+        <app-select
+        titulo = "O paciente estava em casa"
+        [formGroup] = "vistoriaIsolado"
+        controlName = "isHome"
+        >
+        </app-select>
+
+        <app-select
+        titulo = "Residentes com convívio direto estavam em casa"
+        [formGroup] = "vistoriaIsolado"
+        controlName = "isResidentsInHome"
+        >
+        </app-select>
+
+        
+        <app-select
+        titulo = "Cesta Básica Solicitada"
+        [formGroup] = "vistoriaIsolado"
+        controlName = "requestHelp"
+        >
+        </app-select>
+
+        <app-textarea
+        titulo = "Relatório"
+        [formGroup] = vistoriaIsolado
+        controlName = "report">
+        </app-textarea>
+
+
+
+        
+
+        <button class="btn btn-primary mr-3" type="submit">Salvar</button>
+        <button class="btn btn-info" type="reset">Limpar</button>
+
+    </form>
+</div>

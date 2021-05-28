@@ -1,0 +1,14 @@
+<div [formGroup] = "formGroup">
+    <label>{{titulo}}</label>
+    <div class="form-group">
+        <input 
+        type="datetime-local"
+        [placeholder]="titulo"
+        class="form-control"
+        [name]="controlName" 
+        [formControlName] = "controlName">
+    </div>
+
+    <p class="font-italic text-danger" *ngIf="validacao.hasErrorValidate(formControl, 'required')">Campo Obrigatório.</p>
+
+</div> 

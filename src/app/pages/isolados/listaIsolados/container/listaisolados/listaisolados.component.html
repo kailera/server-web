@@ -1,0 +1,13 @@
+<div class="container-fluid ">
+    <h1 class="text-center">Registro de Isolados</h1>
+    
+        <div *ngFor = "let isolado of isolados$ | async">
+            <app-isolados-details
+                [isolado] = "isolado"
+                (click)="abrir(isolado.id)">
+            </app-isolados-details>
+        </div>
+
+    <a href="#" class="btn btn-info fixed-bottom" routerLink = "/isolados/cadastro">Cadastrar</a> <!-- passar query-->
+
+</div>

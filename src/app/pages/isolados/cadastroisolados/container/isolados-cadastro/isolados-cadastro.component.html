@@ -1,0 +1,52 @@
+<div>
+    <form 
+    autocomplete ="off"
+    [formGroup] = "cadastroIsolado"
+    (ngSubmit) = cadastrar() 
+    (ngReset) = resetar()
+    novalidate>
+
+        <app-input-data
+            titulo = "Data do Registro"
+            [formGroup] = "cadastroIsolado"
+            controlName = "dataregistro">
+        </app-input-data>
+
+        <app-input-text
+            titulo="Nome"
+            [formGroup] = "cadastroIsolado"
+            controlName = "nomeisolado">
+        </app-input-text>
+
+        <app-input-text
+            titulo="Endereço"
+            [formGroup] = "cadastroIsolado"
+            controlName = "enderecoisolado">
+        </app-input-text>
+        
+        <app-input-number
+        titulo = "Número do endereço"
+        [formGroup] = "cadastroIsolado"
+        controlName = numeroenderecoisolado>
+        
+        </app-input-number>
+    
+        <app-input-data
+            titulo = "Início do Isolamento"
+            [formGroup] = "cadastroIsolado"
+            controlName = "datainicioisolamento">
+        </app-input-data>
+
+        <app-input-data
+            titulo = "Final do Isolamento"
+            [formGroup] = "cadastroIsolado"
+            controlName = "datafimisolamento">
+        </app-input-data>
+
+        <div class="mb-4 text-center">
+            <button type="submit" class="btn btn-primary mr-2 ">Cadastrar</button>
+            <button type="reset" class="btn btn-info" (click) = "resetar()">Limpar Formulário</button>
+        </div>
+
+    </form>
+</div>

@@ -1,0 +1,13 @@
+<div class="form-group"
+    [formGroup] = "formGroup">
+    <label for="exampleFormControlTextarea1">{{titulo}}:</label>
+    <textarea 
+        class="form-control" 
+        id="exampleFormControlTextarea1" 
+        rows="4"
+        [formControlName] = "controlName">
+        </textarea>
+
+    <p class="font-italic text-danger" *ngIf="validacao.hasErrorValidate(formControl, 'minlength')">Minimo de {{validacao.lengthValidar(formControl, 'minlength')}} caracteres.</p>
+    <p class="font-italic text-danger" *ngIf="validacao.hasErrorValidate(formControl, 'maxlength')">Máximo de {{validacao.lengthValidar(formControl, 'maxlength')}} caracteres.</p>
+</div>

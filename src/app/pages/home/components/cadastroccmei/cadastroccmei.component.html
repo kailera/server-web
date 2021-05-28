@@ -1,0 +1,66 @@
+<h2 class="text-center">Cadastro de Ccmeis</h2>
+<hr>
+<p class="font-weight-light text-center">Cadastro Unificado de Certificados de Pereira Barreto</p>
+
+<hr>
+<div class="container">
+    <form 
+        autocomplete ="off"
+        [formGroup] = "cadastroMei"
+        (ngSubmit) = cadastrar() 
+        (ngReset) = resetar()
+        novalidate>
+
+        <app-input-data
+            titulo = "Data do Registro"
+            [formGroup] = "cadastroMei"
+            controlName = "datacriacao">
+        </app-input-data>        
+
+        <app-input-text
+            titulo = "Razão Social"
+            [formGroup] = "cadastroMei"
+              controlName = "razaosocial">
+        </app-input-text>
+
+        <app-input-text
+            titulo = "CNPJ"
+            [formGroup] = "cadastroMei"
+              controlName = "cnpj">
+        </app-input-text>
+
+        <app-input-text
+            titulo = "Nome Fantasia"
+            [formGroup] = "cadastroMei"
+              controlName = "nomefantasia">
+        </app-input-text>
+
+        <app-input-text
+            titulo = "Endereço"
+            [formGroup] = "cadastroMei"
+              controlName = "endereco">
+        </app-input-text>
+
+        <app-input-number
+            titulo = "Número"
+            [formGroup] = "cadastroMei"
+            controlName = "enredeconumero">
+        </app-input-number>
+
+        <app-input-text
+            titulo = "Fiscal Responsável"
+            [formGroup] = "cadastroMei"
+              controlName = "fiscalresponsavel">
+        </app-input-text>
+        
+    
+        <button class="btn btn-primary m-2" type="submit">
+            Cadastrar
+        </button>
+
+        <button class="btn btn-info m-2" type="reset">
+            Resetar
+        </button>
+
+    </form>
+</div>

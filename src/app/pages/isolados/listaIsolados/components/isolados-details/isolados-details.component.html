@@ -1,0 +1,13 @@
+
+
+<div class="card mb-3">
+    <div class="card-header">
+        <p>{{isVisited ? "visitado" : "Não vistoriado"}}</p>
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">{{isolado.nomeisolado}}</h5>
+        <p class="card-text">{{isolado.enderecoisolado}}, {{isolado.numeroenderecoisolado}}</p>
+        <a class="btn btn-primary" (click) = "visitado()"> {{!isVisited ? 'Não Visitado':'Visitado'}} </a>
+    </div>
+    
+</div>

@@ -1,0 +1,198 @@
+{
+  "ccmei": [
+    {
+      "id": 1,
+      "datacriacao": "12-12-12",
+      "razaosocial": "teste1",
+      "cnpj": "00.000.000/00001-12",
+      "nomefantasia": "teste nome",
+      "endereco": "teste de endereco",
+      "enderconumero": 121,
+      "fiscalresponsavel": "Samuel Ferreira"
+    }
+  ],
+  "isolados": [
+    {
+      "id": 1,
+      "dataregistro": "12-12-12",
+      "nomeisolado": "teste",
+      "enderecoisolado": "enderecoteste",
+      "numeroenderecoisolado": 1213,
+      "datainicioisolamento": "01-12-21",
+      "datafimisolamento": "04-12-21"
+    },
+    {
+      "dataregistro": "2021-04-26T22:57",
+      "nomeisolado": "Samuel Ferreira da Costa",
+      "enderecoisolado": "passeio niterói",
+      "numeroenderecoisolado": 304,
+      "datainicioisolamento": "2021-04-26T22:57",
+      "datafimisolamento": "2021-05-05T22:57",
+      "id": 2
+    },
+    {
+      "dataregistro": "2021-04-26T22:57",
+      "nomeisolado": "Samuel Ferreira da Costa",
+      "enderecoisolado": "passeio niterói",
+      "numeroenderecoisolado": 304,
+      "datainicioisolamento": "2021-04-26T22:57",
+      "datafimisolamento": "2021-05-05T22:57",
+      "id": 3
+    },
+    {
+      "dataregistro": "2021-04-27T00:20",
+      "nomeisolado": "Samuel Ferreira da Costa",
+      "enderecoisolado": "Passeio Niterói ",
+      "numeroenderecoisolado": 304,
+      "datainicioisolamento": "2021-04-25T00:20",
+      "datafimisolamento": "2021-04-30T00:20",
+      "id": 4
+    },
+    {
+      "dataregistro": "2021-04-27T00:20",
+      "nomeisolado": "Samuel Ferreira da Costa",
+      "enderecoisolado": "Passeio Niterói ",
+      "numeroenderecoisolado": 304,
+      "datainicioisolamento": "2021-04-25T00:20",
+      "datafimisolamento": "2021-04-30T00:20",
+      "id": 5
+    },
+    {
+      "dataregistro": "2021-04-27T00:46",
+      "nomeisolado": "sadasd",
+      "enderecoisolado": "sadasdas",
+      "numeroenderecoisolado": 2121,
+      "datainicioisolamento": "2021-04-27T00:46",
+      "datafimisolamento": "2021-04-30T00:46",
+      "id": 6
+    },
+    {
+      "dataregistro": "2021-05-07T20:52",
+      "nomeisolado": "Duplicado",
+      "enderecoisolado": "era eu",
+      "numeroenderecoisolado": 212,
+      "datainicioisolamento": "2021-05-07T11:11",
+      "datafimisolamento": "2021-05-23T20:52",
+      "id": 23
+    },
+    {
+      "dataregistro": "2021-05-07T21:04",
+      "nomeisolado": "Joaquim Bodega",
+      "enderecoisolado": "PAsseio pau na sua cara troslei",
+      "numeroenderecoisolado": 1231,
+      "datainicioisolamento": "2021-05-07T21:05",
+      "datafimisolamento": "2021-05-21T21:05",
+      "id": 24
+    },
+    {
+      "dataregistro": "2021-05-07T21:04",
+      "nomeisolado": "Joaquim Bodega",
+      "enderecoisolado": "PAsseio pau na sua cara troslei",
+      "numeroenderecoisolado": 1231,
+      "datainicioisolamento": "2021-05-07T21:05",
+      "datafimisolamento": "2021-05-21T21:05",
+      "id": 25
+    },
+    {
+      "dataregistro": "2021-05-07T21:10",
+      "nomeisolado": "meu deus",
+      "enderecoisolado": "1i2hwqe",
+      "numeroenderecoisolado": 21,
+      "datainicioisolamento": "2021-05-07T21:10",
+      "datafimisolamento": "2021-05-15T21:10",
+      "id": 26
+    },
+    {
+      "dataregistro": "2021-05-07T21:10",
+      "nomeisolado": "meu deus",
+      "enderecoisolado": "1i2hwqe",
+      "numeroenderecoisolado": 21,
+      "datainicioisolamento": "2021-05-07T21:10",
+      "datafimisolamento": "2021-05-15T21:10",
+      "id": 27
+    },
+    {
+      "dataregistro": "2021-05-08T08:28",
+      "nomeisolado": "Samue",
+      "enderecoisolado": "disahdas",
+      "numeroenderecoisolado": 212,
+      "datainicioisolamento": "2021-05-08T08:28",
+      "datafimisolamento": "2021-05-21T08:28",
+      "id": 28
+    },
+    {
+      "dataregistro": "2021-05-08T08:28",
+      "nomeisolado": "Samue",
+      "enderecoisolado": "disahdas",
+      "numeroenderecoisolado": 212,
+      "datainicioisolamento": "2021-05-08T08:28",
+      "datafimisolamento": "2021-05-21T08:28",
+      "id": 29
+    },
+    {
+      "dataregistro": "2021-05-08T09:10",
+      "nomeisolado": "Samue",
+      "enderecoisolado": "231",
+      "numeroenderecoisolado": 12312,
+      "datainicioisolamento": "2021-05-08T09:10",
+      "datafimisolamento": "2021-05-22T09:10",
+      "id": 30
+    }
+  ],
+  "vistoria-isolado": [
+    {
+      "id": 1,
+      "date": "ewqe",
+      "isolated": "teste",
+      "isHome": true,
+      "isResidentsInHome": true,
+      "report": "ok",
+      "requestHelp": true
+    },
+    {
+      "date": "8 de maio de 2021 às 15:05",
+      "isolated": "teste",
+      "isHome": true,
+      "isResidentsInHome": true,
+      "report": "dsa",
+      "requestHelp": true,
+      "id": 2
+    },
+    {
+      "date": "10 de maio de 2021 às 23:57",
+      "isolated": "teste",
+      "isHome": true,
+      "isResidentsInHome": true,
+      "report": "Sem Sintomas.",
+      "requestHelp": true,
+      "id": 3
+    },
+    {
+      "date": "21 de maio de 2021 às 20:21",
+      "isolated": "teste",
+      "isHome": true,
+      "isResidentsInHome": true,
+      "report": "tudo ok",
+      "requestHelp": true,
+      "id": 4
+    },
+    {
+      "date": "25 de maio de 2021 às 11:47",
+      "isolated": "teste",
+      "isHome": true,
+      "isResidentsInHome": true,
+      "report": null,
+      "requestHelp": true,
+      "id": 5
+    },
+    {
+      "date": "28 de maio de 2021 às 10:09",
+      "isolated": "teste",
+      "isHome": true,
+      "isResidentsInHome": true,
+      "report": null,
+      "requestHelp": true,
+      "id": 6
+    }
+  ]
+}

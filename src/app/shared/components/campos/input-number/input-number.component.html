@@ -1,0 +1,15 @@
+<div [formGroup] = "formGroup">
+    <div class="form-group">
+        <label>{{titulo}}</label>
+        <input 
+        [placeholder]="titulo"
+        type="number"
+        class="form-control"
+        [name]="controlName" 
+        [formControlName] = "controlName">
+    </div>
+
+    <p class="font-italic text-danger" *ngIf="validacao.hasErrorValidate(formControl, 'required')">Campo Obrigatório.</p>
+    <p class="font-italic text-danger" *ngIf="validacao.hasErrorValidate(formControl, 'minlength')">Minimo de {{validacao.lengthValidar(formControl, 'minlength')}} caracteres.</p>
+    <p class="font-italic text-danger" *ngIf="validacao.hasErrorValidate(formControl, 'maxlength')">Máximo de {{validacao.lengthValidar(formControl, 'maxlength')}} caracteres.</p>
+</div> 

@@ -1,0 +1,23 @@
+
+<div class="modal-header">
+    <h4 class="modal-title pull-left">{{title}}</h4>
+    <button type="button" class="close pull-right" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+    </button> 
+</div>
+<div class="modal-body">
+    <div *ngIf="isolado">
+        <p>{{isolado.nomeisolado}}</p>
+        <p>{{isolado.enderecoisolado}}</p>
+        <p>{{isolado.numeroenderecoisolado}}</p>
+    </div>
+
+    <div *ngIf ="vistoria">
+        <p>{{vistoria.isHome}}</p>
+        <p>{{vistoria.isResidentsInHome}}</p>
+        <p>{{vistoria.requestHelp}}</p>
+    </div>
+<div class="modal-footer">
+    <button type="button" class="btn btn-default" (click)="bsModalRef.hide()">{{closeBtnName}}</button>
+
+</div>
